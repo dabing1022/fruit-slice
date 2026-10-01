@@ -1,0 +1,10 @@
+# Keep deployment metadata, credentials, and machine-specific files private.
+.openai/
+.env
+.env.*
+!.env.example
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+coverage/
